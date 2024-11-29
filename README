@@ -1,1 +1,26 @@
+Main.py:
 
+  Create an Index File:
+  A new file with a header block that includes metadata (e.g., root location, next free block).
+
+  Open an Index File:
+  Load an existing file, validating its format using a predefined "magic number."
+
+  Insert Key-Value Pairs:
+  Add a new pair to the B-Tree, splitting nodes if necessary.
+  Ensure duplicate keys are not allowed.
+
+  Search for a Key:
+  Locate a specific key in the B-Tree and return its associated value.
+
+  Load from a File:
+  Bulk insert key-value pairs from a CSV file.
+
+  Print All Data:
+  Display all key-value pairs in the B-Tree.
+
+  Extract Data:
+  Save all key-value pairs in the B-Tree to a CSV file.
+
+  Quit the Program:
+  Exit the menu-driven interface.
