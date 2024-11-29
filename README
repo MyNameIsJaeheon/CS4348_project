@@ -1,5 +1,11 @@
-Main.py:
+This is essentially a file-based database with B-Tree indexing.
+The program:
+  Interacts with the user through a command-line menu.
+  Performs disk I/O to manage the indexed file.
+  Implements the B-Tree algorithm to ensure efficient data storage and retrieval.
 
+
+Main.py:
   Create an Index File:
   A new file with a header block that includes metadata (e.g., root location, next free block).
 
